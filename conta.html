@@ -27,7 +27,7 @@
 <body>
     <div class="container">
 
-        <h1 class="bg-danger my-3 p-5 text-light display-5">MyMusic - Criar Conta</h1>
+        <h1 class="bg-danger my-3 p-5 text-light display-6">MyMusic - Criar Conta</h1>
 
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -43,20 +43,20 @@
                 <!-- campo nome -->
                 <div class="col-md-4 my-3">
                     <label for="user" class="form-label">Usuário:</label>
-                    <input type="text" name="user" id="user" class="form-control" placeholder="Ex: Fulano de Tal"
+                    <input type="text" name="user" id="user" class="form-control" placeholder="Ex: Seu Nome"
                         maxlength="20" minlength="8" required>
                 </div>
 
                 <div class="col-md-4 my-3">
                     <label for="senha" class="form-label">Senha:</label>
-                    <input type="password" name="senha" id="senha" class="form-control" placeholder="Ex: 123456"
+                    <input type="password" name="senha" id="senha" class="form-control" placeholder="Ex: 123abc"
                         minlength="8" maxlength="20" required>
                 </div>
 
                 <div class="col-md-4 my-3">
-                    <label for="email" class="form-label">Email:</label>
+                    <label for="email" class="form-label">E-mail:</label>
                     <input type="email" name="email" id="email" class="form-control"
-                        placeholder="Ex: seuemail@provedor.com" minlength="8" maxlength="20" required>
+                        placeholder="Ex: email@provedor.com" minlength="8" maxlength="20" required>
                 </div>
 
                 <div class="col-md-4 my-3">
@@ -71,6 +71,8 @@
                         <option value="1">Desenvolvimento</option>
                         <option value="2">Banco de Dados</option>
                         <option value="3">DevOps</option>
+                        <option value="3">Java</option>
+                        <option value="3">PHP</option>
                     </select>
                 </div>
 
@@ -91,13 +93,13 @@
                 </div>
 
                 <div class="col-12 my-3">
-                    <label for="mensagem" class="form-label">Quem é você?</label>
+                    <label for="mensagem" class="form-label">Conte-nos sobre você?</label>
                     <textarea name="mensagem" id="mensagem" class="form-control"
-                        placeholder="Ex: Eu sou desenvolvedor..."></textarea>
+                        placeholder="Ex: eu sou..."></textarea>
                 </div>
 
                 <div class="my-3 d-flex justify-content-end">
-                    <button type="submit" class="btn btn-danger btn-lg">Criar Conta</button>
+                    <button type="submit" class="btn btn-danger btn-sm">Criar Conta</button>
                 </div>
             </div>
         </form>
